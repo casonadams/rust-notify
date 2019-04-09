@@ -1,0 +1,13 @@
+[package]
+name = "watcher"
+version = "0.1.0"
+authors = ["Cason Adams <casonadams@gmail.com>"]
+edition = "2015"
+
+[dependencies]
+notify = "4.0.0"
+clap = "2.33.0"
+time = "0.1.42"
+
+[build]
+target = "armv7-unknown-linux-gnueabihf"
